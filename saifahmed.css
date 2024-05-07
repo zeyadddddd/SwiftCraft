@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eae1e1;
+  font-family: 'Teachers', sans-serif;
+
+  }
+  
+header {
+background: radial-gradient(#fff,#42a0d2);
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .product-image {
+    flex-basis: 50%;
+    margin-right: 40px;
+  }
+  
+  .product-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .product-details {
+    flex-basis: 50%;
+  }
+  
+  .product-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5F9EA0;
+    margin-bottom: 20px;
+  }
+  
+  .product-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .quantity-control button {
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .quantity-control input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+  }
+  
+  .add-to-cart {
+    background-color: #5F9EA0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #5F9EA0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+.product-reviews {
+  margin-top: 40px;
+}
+
+.review-form {
+  margin-bottom: 20px;
+}
+
+.review-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-form label {
+  margin-bottom: 5px;
+}
+
+.review-form input,
+.review-form textarea {
+  margin-bottom: 10px;
+}
+
+.review-form button {
+  background-color: #5F9EA0;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

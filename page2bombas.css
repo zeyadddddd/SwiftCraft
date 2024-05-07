@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Teachers', sans-serif;
+    line-height: 1.6;
+    background-color: #eae1e1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: radial-gradient(#fff,#42a0d2);
+    color: black;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffd700; 
+}
+
+#about {
+    background-color: #eae1e1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about p {
+    margin-bottom: 15px;
+}
+
+#about ul {
+    margin-bottom: 15px;
+}
+
+#about ul li {
+    margin-bottom: 5px;
+}
+
+#about ul li strong {
+    font-weight: bold;
+}
+
+.testimonial {
+    background-color: #e6fff7;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial strong {
+    font-weight: bold;
+    color: black;
+}
+
+.about-quote {
+    background-color: #ffd700; 
+    color: #333; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.about-quote blockquote {
+    font-style: italic;
+    font-size: 20px;
+    border-left: 4px solid #333; 
+    padding-left: 15px;
+    margin: 0;
+}
+
+.about-quote blockquote p {
+    margin: 0;
+}
+
+footer {
+    background-color: #F0FFFF;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.employee {
+    background-color: #F5F5DC;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee h3 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.employee ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.employee ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    position: relative;
+    padding-left: 20px;
+}
+
+.employee ul li:before {
+    content: '\2022'; 
+    color: #ffd700; 
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.employee:last-child {
+    margin-right: 0;
+}
+
+
+.ceo1 img {
+    margin-left: 130px; /* Move the image 50px to the right */
+    margin-right: 160px; /* Move the image 50px to the right */
+}
+
+
+.emp {
+    margin-left: 0px; 
+}
+
+.emp img {
+    max-width: 30%; 
+    height: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social img {
+    width: 2%; /* Ensure the container takes up the entire width */
+}
+
+.social img {
+    margin-right: auto; /* This will push the image to the right */
+    display: block; /* Ensure the image is displayed as a block element */
+}
+
